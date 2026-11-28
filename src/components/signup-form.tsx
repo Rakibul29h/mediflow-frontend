@@ -33,20 +33,7 @@ export function SignupForm({
             className="bg-background"
           />
         </Field>
-        <Field>
-          <FieldLabel htmlFor="email">Email</FieldLabel>
-          <Input
-            id="email"
-            type="email"
-            placeholder="m@example.com"
-            required
-            className="bg-background"
-          />
-          <FieldDescription>
-            We&apos;ll use this to contact you. We will not share your email
-            with anyone else.
-          </FieldDescription>
-        </Field>
+        
         <Field>
           <FieldLabel htmlFor="password">Password</FieldLabel>
           <Input
